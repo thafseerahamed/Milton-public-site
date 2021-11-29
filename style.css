@@ -1,0 +1,56 @@
+.navconfig{
+    background-color: #ec2b09;
+}
+.colr{
+    color: white;
+}
+.search-box{
+   width: 10rem;
+}
+body{
+ margin: 0;
+}
+img{
+    cursor: pointer;
+}
+
+.img1:hover{
+  transform: scale(1.05);
+  box-shadow: 1.5px 1.5px 1.5px 1.5px white;
+}  
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+ 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+  
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+     /* this adds the "card" effect */
+   
+    text-align: center;
+    border: none;
+    padding-top: 2rem;
+    
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+     
+    }
+  }
+ 
